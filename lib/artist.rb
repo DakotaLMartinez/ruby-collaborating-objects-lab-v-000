@@ -11,6 +11,14 @@ class Artist
   def self.all 
     @@all 
   end
+   
+  def self.find(name)
+    @@all.find do |artist|
+      artist.name == name      
+    end
+  end
+  
+  def 
   
   def add_song(song)
     @songs << song
