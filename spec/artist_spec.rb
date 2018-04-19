@@ -3,7 +3,6 @@ describe 'Artist' do
 
   describe '#initialize with #name' do
     it 'accepts a name for the artist' do
-      binding.pry
       expect(artist.name).to eq('Michael Jackson')
     end
   end
