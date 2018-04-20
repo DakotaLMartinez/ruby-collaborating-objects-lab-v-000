@@ -17,7 +17,10 @@ class Artist
   end
   
   def save 
-    
+    @all.push(self)
   end
   
 end
+
+artist = Artist.new("Bruno Mars")
+artist.save
