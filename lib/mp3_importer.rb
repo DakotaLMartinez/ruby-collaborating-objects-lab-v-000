@@ -5,7 +5,7 @@ class MP3Importer
   end
   
   def files 
-    binding.pry
+    Dir.entries(path).reject{|f| f == '.' || f == '..}
   end
   
   
