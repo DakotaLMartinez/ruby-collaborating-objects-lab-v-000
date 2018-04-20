@@ -22,5 +22,3 @@ class Artist
   
 end
 
-artist = Artist.new("Bruno Mars")
-artist.save
