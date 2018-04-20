@@ -7,6 +7,7 @@ class Artist
   
   def add_song(song)
     @songs.push(song)
+    binding.pry
   end
   
 end
