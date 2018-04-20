@@ -12,6 +12,18 @@ class Artist
     @@all
   end
   
+  def self.find_or_create_by_name(name) 
+    self.find(name) || self.create(name)
+  end
+  
+  def self.find(name)
+    
+  end
+  
+  def self.create(name)
+    
+  end
+  
   def add_song(song)
     @songs.push(song)
   end
@@ -20,6 +32,8 @@ class Artist
     @@all.push(self)
     self
   end
+  
+  
   
 end
 
