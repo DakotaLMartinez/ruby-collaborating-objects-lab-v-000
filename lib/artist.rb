@@ -34,4 +34,8 @@ class Artist
     @@all << self
     self
   end
+  
+  def print_songs 
+    @songs.each(&:puts)    
+  end
 end
