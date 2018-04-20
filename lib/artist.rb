@@ -8,6 +8,10 @@ class Artist
   
   @@all = []
   
+  def self.all 
+    
+  end
+  
   def add_song(song)
     @songs.push(song)
   end
@@ -19,4 +23,4 @@ class Artist
 end
 
 artist = Artist.new("Bruno Mars")
-song.save
+artist.save
