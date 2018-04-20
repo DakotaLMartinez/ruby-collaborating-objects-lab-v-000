@@ -4,4 +4,8 @@ class Song
     @name = name  
     @artist = nil
   end
+  
+  def artist=(artist)
+    @artist = artist
+  end
 end
