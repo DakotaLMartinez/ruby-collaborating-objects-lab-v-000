@@ -5,5 +5,8 @@ class Song
     @artist = nil
   end
   
+  def self.new_from_filename(filename)
+    
+  end
   
 end
