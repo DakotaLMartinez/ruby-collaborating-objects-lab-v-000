@@ -7,7 +7,7 @@ class Song
   
   def self.new_by_filename(filename)
     binding.pry
-    
+    artist_name, song_name, genre_name = filename.
   end
   
   def artist=(artist)
