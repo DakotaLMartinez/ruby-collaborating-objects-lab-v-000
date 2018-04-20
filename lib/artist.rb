@@ -17,3 +17,6 @@ class Artist
   end
   
 end
+
+artist = Artist.new("Bruno Mars")
+song.save
