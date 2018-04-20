@@ -9,7 +9,7 @@ class Artist
   @@all = []
   
   def self.all 
-    
+    @@all
   end
   
   def add_song(song)
@@ -21,6 +21,3 @@ class Artist
   end
   
 end
-
-artist = Artist.new("Bruno Mars")
-artist.save
