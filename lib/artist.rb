@@ -12,4 +12,8 @@ class Artist
     @songs.push(song)
   end
   
+  def save 
+    
+  end
+  
 end
